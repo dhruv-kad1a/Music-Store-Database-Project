@@ -5,7 +5,7 @@ This project demonstrates how to analyze a music store's data using SQL. The dat
 # 🗂 Database Schema (ER Diagram)
 The schema models a music store with relationships between artists, albums, tracks, invoices, and customers.
 
-##Key Tables:
+## Key Tables:
 * Artist: Stores artist information (ArtistId, Name).
 * Album: Albums linked to artists (AlbumId, Title, ArtistId).
 * Track: Tracks in each album with details (TrackId, Name, AlbumId, GenreId, MediaTypeId, Milliseconds, UnitPrice).
